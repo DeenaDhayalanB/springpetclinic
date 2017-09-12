@@ -1,2 +1,1 @@
-Onlinebanking.
-Test
+Onlinebanking
