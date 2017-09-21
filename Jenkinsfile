@@ -13,7 +13,7 @@ pipeline
 				steps{
 					
 						//git url:'http://50.17.36.28/root/insights.git'
-						sh 'mn clean package -DskipTests=true'
+						sh 'mvn clean package -DskipTests=true'
 				}
 					
 			}
