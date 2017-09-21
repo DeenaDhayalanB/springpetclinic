@@ -22,7 +22,7 @@ pipeline
 			{
 				steps
 				{
-					sh 'mvn sonar:sonar -Dsonar.host.url=http://54.209.104.148:9001/ -Dmaven.test.failure.ignore=true -DskipTests=true -Dsonar.sources=src/main/java'
+					sh 'mn sonar:sonar -Dsonar.host.url=http://54.209.104.148:9001/ -Dmaven.test.failure.ignore=true -DskipTests=true -Dsonar.sources=src/main/java'
 				}
 			}		
 			
