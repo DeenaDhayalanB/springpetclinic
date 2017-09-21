@@ -1,4 +1,4 @@
-env.dockerimagename="devopsbasservice/buildonframework:jenkisnfile-multistages"
+env.dockerimagename="devopsbasservice/buildonframework:buildonJenkinsfile2.0"
 pipeline
 {
   agent any
