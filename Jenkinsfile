@@ -10,7 +10,7 @@ pipeline
                 {
 				steps
                     {
-                        git url:'http://50.17.36.28/root/JenkinsfileDeclarativePipeline.git'
+                        git url:'https://github.com/devopsbasservice/springpetclinic.git'
                         sh 'mvn clean package -DskipTests=true'
                     }
                 }
