@@ -1,4 +1,4 @@
-env.dockerimagename="buildon/buildon:v2"
+env.dockerimagename="devopsbasservice/buildonframework:test"
 node {
    stage ('SP_Clinic_Build') {
     checkout scm
