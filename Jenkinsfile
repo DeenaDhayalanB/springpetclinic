@@ -9,6 +9,6 @@ node {
    }
 
    stage ('SP_Clinic_NexusUpload') {
-    sh 'echo Hello'
+    sh 'mvn --version'
    }
 }
