@@ -1,0 +1,16 @@
+resources:
+- name: branch-dev
+  type: git
+  source:
+    uri: https://github.com/DeenaDhayalanB/springpetclinic.git
+    branch: master
+   
+jobs:
+- name: udm
+  serial: true
+  plan:
+  - get: branch-dev
+    trigger: true
+  - task: mvn-package
+      privileged: true
+      file: branch-dev/package.yml
