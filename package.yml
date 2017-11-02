@@ -15,4 +15,3 @@ run:
   path: "mvn"
   args: ["-f", "git-repo/pom.xml", "clean"]
   args: ["-f", "git-repo/pom.xml", "package"]
-  args: ["-f", "git-repo/pom.xml", "sonar:sonar -Dsonar.host.url=http://54.209.104.148:9001/ -Dsonar.sources=src/main/java"]
