@@ -13,4 +13,4 @@ outputs:
 
 run:
   path: "mvn"
-  args: ["-f", "branch-dev/pom.xml", "package"]
+  args: ["-f", "git-repo/pom.xml", "package"]
