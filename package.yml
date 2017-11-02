@@ -16,3 +16,4 @@ run:
   args: ["-f", "git-repo/pom.xml", "clean"]
   args: ["-f", "git-repo/pom.xml", "-DskipTests=true", "package"]
   args: ["-f", "git-repo/pom.xml", "-Dsonar.host.url=http://54.209.104.148:9001/", "sonar:sonar"]
+  args: ["-f", "git-repo/pom.xml", "deploy"]
