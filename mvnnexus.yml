@@ -7,7 +7,7 @@ image_resource:
     tag: latest
 
 inputs:
-  - name: mvn-package-output
+  - name: git-repo
 outputs:
   - name: mvn-nexus-output
 
