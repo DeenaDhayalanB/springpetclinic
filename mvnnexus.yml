@@ -13,4 +13,5 @@ outputs:
 
 run:
   path: "mvn"
+  args: ["-f", "git-repo/pom.xml", "package"]
   args: ["-f", "git-repo/pom.xml", "deploy"]
