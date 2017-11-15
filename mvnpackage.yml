@@ -9,7 +9,7 @@ image_resource:
 inputs:
   - name: git-repo
 outputs:
-  - name: mvn-package-output
+  - name: mvn-package-output123
 
 run:
   path: "mvn"
